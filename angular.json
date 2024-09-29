@@ -45,10 +45,7 @@
               "src/styles.css"
               
             ],
-            "scripts": [
-                "node_modules/jquery/dist/jquery.min.js",
-                "src/assets/js/script.js"
-            ],
+            "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
