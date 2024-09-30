@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  selector: 'app-items-details',
+  templateUrl: './items-details.component.html',
+  styleUrl: './items-details.component.css'
 })
-export class HeaderComponent implements OnInit {
+export class ItemsDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     let body = <HTMLDivElement>document.body;
     let script = document.createElement('script');
-    script.src = '../../assets/js/script.js';
+    script.src = '../assets/js/script.js';
     script.async = true;
     script.defer = true;
     body.appendChild(script);

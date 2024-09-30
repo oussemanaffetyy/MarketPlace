@@ -7,7 +7,7 @@ declare var $: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent   {
+export class AppComponent  implements OnInit {
   title = 'MarketPlace';
   items = [222,224];
   populerItem:Array<IItems> = [

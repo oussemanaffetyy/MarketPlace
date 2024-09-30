@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { ItemsBoxComponent } from './items-box/items-box.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ItemsPageComponent } from './items-page/items-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ItemsDetailsComponent } from './items-details/items-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemsBoxComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ItemsPageComponent,
+    HomePageComponent,
+    ItemsDetailsComponent
   ],
   imports: [
     BrowserModule,
